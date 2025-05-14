@@ -19,7 +19,7 @@
 
             <flux:navlist variant="outline">
                 <flux:navlist.group :heading="__('Other Platform')" class="grid">
-                    <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Testing 1') }}</flux:navlist.item>
+                    {{-- <flux:navlist.item icon="home" :href="route('collage')" :current="request()->routeIs('collage')" wire:navigate>{{ __('Collage') }}</flux:navlist.item> --}}
                     <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Testing 2') }}</flux:navlist.item>
                     <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Testing 3') }}</flux:navlist.item>
                 </flux:navlist.group>
