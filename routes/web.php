@@ -4,7 +4,7 @@ use App\Livewire\AdminHome;
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 
-Route::get('/', function () {
+Route::get('/admin', function () {
     return view('welcome');
 })->name('home');
 
